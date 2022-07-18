@@ -12,7 +12,7 @@ FLAGS = -Wall -Werror -Wextra
 
 OBJS = $(SRCS:.c=.o)
 
-all: $(NAME)
+all: $(NAME) 
 
 %.o: %.c
 	@$(CC) -c $(FLAGS) -o $@ $^

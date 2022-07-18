@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   parsing.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acmaghou <acmaghou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eassamer <eassamer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/14 15:40:40 by acmaghou          #+#    #+#             */
-/*   Updated: 2022/07/14 18:17:42 by acmaghou         ###   ########.fr       */
+/*   Updated: 2022/07/18 10:51:56 by eassamer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ static void	identify_line(t_cub *cub, char *gline)
 static void	readfile(t_cub *cub, int fd)
 {
 	char	*line;
-	
+
 	while (1)
 	{
 		line = get_next_line(fd);

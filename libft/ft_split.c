@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acmaghou <acmaghou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eassamer <eassamer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/15 12:31:30 by acmaghou          #+#    #+#             */
-/*   Updated: 2022/07/15 12:32:28 by acmaghou         ###   ########.fr       */
+/*   Updated: 2022/07/18 10:27:55 by eassamer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ static int	strs_count(char *str, char c)
 static int	next_slen(char *str, char c)
 {
 	static int	i;
-	int		len;
+	int			len;
 
 	len = 0;
 	while (str[i])

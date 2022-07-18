@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acmaghou <acmaghou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eassamer <eassamer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/14 09:15:38 by acmaghou          #+#    #+#             */
-/*   Updated: 2022/07/15 15:41:32 by acmaghou         ###   ########.fr       */
+/*   Updated: 2022/07/18 10:48:03 by eassamer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,10 @@
 # define ESC 53
 # define LEFT 123
 # define RIGHT 124
-# define MV_SPD 0.1
+# define MV_SPD 0.08
 # define ROT_SPD 0.05
 
-typedef struct	s_mlx
+typedef struct s_mlx
 {
 	void	*mlx;
 	void	*win;

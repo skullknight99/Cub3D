@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   gnl.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acmaghou <acmaghou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eassamer <eassamer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/14 17:42:09 by acmaghou          #+#    #+#             */
-/*   Updated: 2022/07/15 12:49:19 by acmaghou         ###   ########.fr       */
+/*   Updated: 2022/07/18 10:43:33 by eassamer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,9 @@ char	*get_next_line(int fd)
 
 	s = malloc(10000);
 	c = s;
-	while (read(fd, c, 1) > 0 && *c++ != '\n');
+	while (read(fd, c, 1) > 0 && *c++ != '\n')
+	{
+	}
 	if (c > s)
 	{
 		*c = 0;

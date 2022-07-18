@@ -2,7 +2,7 @@ NAME	= 	cub3D
 
 CC		= 	gcc
 
-FLAGS	=	-Wall -Wextra -Werror -lmlx -Lmlx -framework OpenGL -framework AppKit
+FLAGS	=	-Wall -Wextra -Werror -lmlx  -framework OpenGL -framework AppKit
 
 PATH_LIBFT = ./libft/libft.a
 

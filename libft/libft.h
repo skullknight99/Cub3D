@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acmaghou <acmaghou@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eassamer <eassamer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/15 11:14:34 by acmaghou          #+#    #+#             */
-/*   Updated: 2022/07/15 13:04:53 by acmaghou         ###   ########.fr       */
+/*   Updated: 2022/07/18 10:27:14 by eassamer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,5 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_bzero(void *s, int n);
 void	*ft_memset(void *s, int c, int n);
 void	*ft_calloc(int count, int size);
-
 
 #endif
