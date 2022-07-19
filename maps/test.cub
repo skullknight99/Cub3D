@@ -1,15 +1,15 @@
 
-NO                        ./tex/north.xpm
+NO                        ./tex/me.xpm
 
-SO ./tex/south.xpm
+SO ./tex/me.xpm
 
-WE       ./tex/west.xpm
+WE       ./tex/me.xpm
 
-EA ./tex/east.xpm
+EA ./tex/me.xpm
 
 
-F    120,125,125
-C    25,25,25
+F    44, 38, 48
+C    65,8,115
 
 
 
