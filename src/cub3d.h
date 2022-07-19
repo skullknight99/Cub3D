@@ -6,7 +6,7 @@
 /*   By: eassamer <eassamer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/14 09:15:38 by acmaghou          #+#    #+#             */
-/*   Updated: 2022/07/18 10:48:03 by eassamer         ###   ########.fr       */
+/*   Updated: 2022/07/19 16:21:04 by eassamer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <math.h>
 # include <string.h>
 # include <fcntl.h>
+
 # include <mlx.h>
 # include <stdlib.h>
 # include <unistd.h>

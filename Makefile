@@ -6,6 +6,7 @@ FLAGS	=	-Wall -Wextra -Werror -lmlx  -framework OpenGL -framework AppKit
 
 PATH_LIBFT = ./libft/libft.a
 
+HEADER = ./src/cub3d.h
 SRCS	=	./src/main.c ./src/utils.c \
 			./src/player.c ./src/parsing.c \
 			./src/textures.c ./src/colors.c \
@@ -20,8 +21,9 @@ all: 		$(NAME)
 $(PATH_LIBFT):
 	@make -C ./libft
 
-$(NAME):	$(OBJS) $(PATH_LIBFT)
+$(NAME):	$(OBJS) $(PATH_LIBFT) $(HEADER)
 			@$(CC) $(FLAGS) $(OBJS) $(PATH_LIBFT) -o $(NAME)
+			@echo "Compilation finished"
 
 clean:
 			rm -rf $(OBJS)
